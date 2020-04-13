@@ -1,0 +1,128 @@
+.navbar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 135px;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.footer1{
+    display: flex;
+    position: absolute;
+    bottom: 40.4px;
+    color: #5F6368;
+    background-color: #F4F4F4;
+    height: 40.4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    align-items: center;
+    border-top: 1px solid #e4e4e4;
+    padding-left: 30px;
+    width: 97%;
+}
+.footer2-left{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    color: #5F6368;
+    background-color: #F4F4F4;
+    height: 40.4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    align-items: center;
+    border-top: 1px solid #e4e4e4;
+    padding-left: 20px;
+    width: 97%;
+}
+.footer2-right{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: #5F6368;
+    background-color: #F4F4F4;
+    height: 40.4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    align-items: center;
+    border-top: 1px solid #e4e4e4;
+    padding-right: 20px;
+}
+button{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #5F6368;
+    background-color: #F4F4F4;
+    border: 0.5px solid #7a7a7a00;
+    border-radius: 4px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    margin-top: -3px;
+}
+button:hover{
+    color: black;
+    background-image: linear-gradient(-90,#f7ebeb,#f1f1f1);
+    border: 0.5px solid rgba(0, 0, 0, 0.144);
+}
+.navbar a{
+    padding: 10px;
+    font-size: 13px;
+    color: #272727;
+    font-family: arial,sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+.footer2-left a{
+    padding: 10px;
+    font-size: 13px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+
+}
+.footer2-right a{
+    padding: 10px;
+    font-size: 13px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+
+}
+#acc{
+    border-radius: 50%;
+}
+#app{
+    opacity: 0.5;
+}
+#app:hover{
+    opacity: 1;
+}
+#searchbar{
+    background-image: url(magnifying-glass.png); 
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 15px;
+    margin:30px;
+    border-radius: 30px;
+    border-width: 0.5px;
+    border: 0.5px solid #7a7a7a3f;
+    width: 500px;            
+    height: 44px;
+    padding-inline-start: 43px;
+}
+#searchbar:hover{
+    box-shadow: 0px 0px 10px #d8d7d7;
+}
+#searchbar:focus{
+    box-shadow: 0px 0px 10px #d8d7d7;
+}
